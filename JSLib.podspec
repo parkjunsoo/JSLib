@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JSLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JSLib.'
+  s.summary          = 'JSLib for Com2Us examination'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jun/JSLib'
+  s.homepage         = 'https://github.com/parkjunsoo/JSLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jun' => 'jun@bravecompany.io' }
-  s.source           = { :git => 'https://github.com/jun/JSLib.git', :tag => s.version.to_s }
+  s.author           = { 'jun' => 'junsoo0929@gmail.com' }
+  s.source           = { :git => 'https://github.com/parkjunsoo/JSLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

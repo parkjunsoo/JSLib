@@ -1,0 +1,6 @@
+framework module JSLib {
+  umbrella header "JSLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
