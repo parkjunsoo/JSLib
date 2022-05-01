@@ -31,7 +31,6 @@
 		9B0C33B72E6F925A9FCB2240745F1D82 /* Pods-JSLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2934E4F9DCEF9D4F1AE2010144CC7B32 /* Pods-JSLib_Example-dummy.m */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BF1DA7B0281C258500D08C17 /* JSLibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1DA7AF281C258500D08C17 /* JSLibTest.swift */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C5C1D41E933A9AF1CF5E5E6DDDAFF0FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
@@ -83,7 +82,7 @@
 		350DDB5CDCE372651E377794A0E2979D /* Pods-JSLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		356A9E6FC932FF7018BAAB4DA26E7C44 /* Pods-JSLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		37209CF5604321B239BC2AFF7769631B /* Pods-JSLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JSLib_Tests"; path = Pods_JSLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37278E57A6B0DB174790A36DAAF3BB5B /* JSLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JSLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		37278E57A6B0DB174790A36DAAF3BB5B /* JSLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JSLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		46EB6F4D267286D90135D16C24C7C6AA /* Pods-JSLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSLib_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -117,7 +116,6 @@
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BD0CCBB9A4BB42CD742512168B79ACAD /* Pods-JSLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF1DA7AF281C258500D08C17 /* JSLibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLibTest.swift; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
@@ -227,7 +225,6 @@
 				48EE47B41505B8F0CBDB18E3967E4505 /* ReplaceMe.swift */,
 				BF49C6203916361B5401212EC82E2A89 /* Pod */,
 				1C22CE49E0A30B1CB43F831DF7D23DB5 /* Support Files */,
-				BF1DA7AF281C258500D08C17 /* JSLibTest.swift */,
 			);
 			name = JSLib;
 			path = ../..;
@@ -546,7 +543,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1DA7B0281C258500D08C17 /* JSLibTest.swift in Sources */,
 				66604EF12397E63A3AB991CD2E3D7F64 /* JSLib-dummy.m in Sources */,
 				175C4F3A891EB1073C8D05F98AB2CA79 /* ReplaceMe.swift in Sources */,
 			);

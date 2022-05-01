@@ -8,7 +8,7 @@
 import Foundation
 
 open class Test {
-    public func init() {}
+    public init() {}
     
     public func testPrint() {
         print("testPrint")
